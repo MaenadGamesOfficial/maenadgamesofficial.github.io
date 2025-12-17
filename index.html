@@ -9,7 +9,6 @@
             border-color: mediumorchid darkorchid;
             border-style: solid;
             border-width: 5px;
-            color: black;
         }
 
         div.looksLikeButton:hover {
@@ -25,6 +24,7 @@
             border-width: 1px;
             padding: 2px;
             gap: 1px;
+            grid-auto-rows: 1fr;
         }
 
         div.projectSquare {
@@ -32,7 +32,6 @@
             border-color: mediumorchid darkorchid;
             border-style: solid;
             border-width: 5px;
-            color: black;
             text-align: center;
         }
 
@@ -43,6 +42,10 @@
 
         a.noUnderline {
             text-decoration: none;
+            display: inline-block;
+            color: black;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
@@ -55,64 +58,87 @@
     <br>
     <div style="border-style:solid;border-width:1px;padding:1px;">
         <center>
-            <a class="noUnderline" href="https://twitter.com/CarfuHelljam">
-                <div class="looksLikeButton">Twitter</div>
-            </a>
-            <a class="noUnderline" href="https://www.youtube.com/channel/UCgrgXFX_uJAxJ611godoP7g">
-                <div class="looksLikeButton">Youtube</div>
-            </a>
-            <a class="noUnderline" href="https://www.patreon.com/maenadgames">
-                <div class="looksLikeButton">Patreon (game demos here!)</div>
-            </a>
+            <div class="looksLikeButton">
+                <a class="noUnderline" href="https://twitter.com/CarfuHelljam">
+                    Twitter
+                </a>
+            </div>
+
+
+
+            <div class="looksLikeButton">
+                <a class="noUnderline" href="https://www.youtube.com/channel/UCgrgXFX_uJAxJ611godoP7g">
+                    Youtube
+                </a>
+            </div>
+            <div class="looksLikeButton">
+                <a class="noUnderline" href="https://www.patreon.com/maenadgames">
+                    Patreon (game demos here!)
+                </a>
+            </div>
+
+
         </center>
     </div>
     <br>
-    
+
     Projects:
     <br>
     <div class="projectsBox">
-        <a class="noUnderline" href="carfuhelljam">
-            <div class="projectSquare">
+
+        <div class="projectSquare">
+            <a class="noUnderline" href="carfuhelljam">
                 Car-Fu Helljam<br>
-                <img src="http://maenadgames.com/carfu logo.png" alt="[Car-Fu Helljam Logo]" style="width:100%;height:100%;object-fit:contain;"><br>
+                <img src="http://maenadgames.com/carfu logo.png" alt="[Car-Fu Helljam Logo]" style="width:100%"><br>
                 A car combat game set in a satirical hyper-australian pseudo-utopia in which nobody can die.<br><br>
                 !!PLAYABLE DEMO AVAILABLE!!<br>
                 !!CLICK HERE!!
-            </div>
-        </a>
-        <a class="noUnderline" href="comingsoon">
-            <div class="projectSquare">
+            </a>
+        </div>
+
+        <div class="projectSquare">
+            <a class="noUnderline" href="comingsoon">
                 unannounced short horror game<br>
-                <img src="http://maenadgames.com/secret horror game icon.png" alt="[cryptic pixel art of an @]" style="width:64px;height:64px;object-fit:contain;"><br>
+                <img src="http://maenadgames.com/secret horror game icon.png" alt="[cryptic pixel art of an @]" style="width:64px"><br>
                 playtime ~30 minutes<br><br>
                 announcement trailer soon<br>
                 subscribe to my youtube for updates
-            </div>
-        </a>
-        <a class="noUnderline" href="comingsoon">
-            <div class="projectSquare">
-                i intend on designing irl toys and games, and am currently working on getting the means to do so. stay tuned i guess
-            </div>
-        </a>
-        <a class="noUnderline" href="http://maenadgames.com/">
-            <div class="projectSquare">
-                this website<br>
-                click here lol
-            </div>
-        </a>
+            </a>
+        </div>
 
+        <div class="projectSquare">
+            <a class="noUnderline" href="comingsoon">
+                i intend on designing irl toys and games, and am currently working on getting the means to do so. stay tuned i guess
+            </a>
+        </div>
+
+        <div class="projectSquare">
+            <a class="noUnderline" href="http://maenadgames.com/">
+                this website<br><br>
+                click here lol
+            </a>
+
+        </div>
     </div>
     <br>
-    other stuff i like (i didnt make these i just want to link them)
+    other stuff i like (i dont own these i just want to link them)
     <br>
     <div style="border-style:solid;border-width:1px;padding:1px;">
         <center>
-            <a class="noUnderline" href="https://crouton.net/">
-                <div class="looksLikeButton">crouton</div>
-            </a>
-            <a class="noUnderline" href="https://motherfuckingwebsite.com/">
-                <div class="looksLikeButton">website about why my website looks like this</div>
-            </a>
+            <div class="looksLikeButton">
+                <a class="noUnderline" href="https://crouton.net/">
+                    crouton
+                </a>
+            </div>
+
+
+            <div class="looksLikeButton">
+                <a class="noUnderline" href="https://motherfuckingwebsite.com/">
+                    website about why my website looks like this
+                </a>
+            </div>
+
+
         </center>
     </div>
 </body>
